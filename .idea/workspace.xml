@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13facacc-15fc-44ab-8e2b-d38da164960d" name="Default Changelist" comment="" />
+    <list default="true" id="13facacc-15fc-44ab-8e2b-d38da164960d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/IntroToTs/classes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IntroToTs/classes.js" beforeDir="false" afterPath="$PROJECT_DIR$/IntroToTs/classes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IntroToTs/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/IntroToTs/types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IntroToTs/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/IntroToTs/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,13 +19,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="TypeScript File" />
         <option value="HTML File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/typescript-tutorial" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
     <option name="recentBranches">
@@ -115,7 +123,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1714442792173</updated>
-      <workItem from="1714442793359" duration="18403000" />
+      <workItem from="1714442793359" duration="20611000" />
     </task>
     <servers />
   </component>
@@ -126,6 +134,7 @@
         <option value="$PROJECT_DIR$/IntroToTs/intro.js" />
         <option value="$PROJECT_DIR$/IntroToTs/Variable.js" />
         <option value="$PROJECT_DIR$/IntroToTs/types.js" />
+        <option value="$PROJECT_DIR$/IntroToTs/class.js" />
       </list>
     </option>
   </component>
@@ -210,5 +219,17 @@
       <screen x="3760" y="0" width="2560" height="1440" />
     </state>
     <state x="4705" y="382" width="670" height="676" key="search.everywhere.popup/3760.0.2560.1440/1200.25.2560.1415/0.25.1200.1895@3760.0.2560.1440" timestamp="1715736577092" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/index.ts</url>
+          <line>3</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

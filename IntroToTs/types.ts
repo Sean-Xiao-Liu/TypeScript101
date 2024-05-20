@@ -30,7 +30,7 @@ let f:[string,string,string];
 f= ['a','b','c']
 
 // define enum
-enum Gender{
+export enum Gender{
     Male ,
     Female
 }

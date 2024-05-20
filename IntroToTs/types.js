@@ -1,4 +1,3 @@
-"use strict";
 // define joint type
 let a;
 let b;
@@ -21,7 +20,7 @@ e = [2, 3, 5.3];
 let f;
 f = ['a', 'b', 'c'];
 // define enum
-var Gender;
+export var Gender;
 (function (Gender) {
     Gender[Gender["Male"] = 0] = "Male";
     Gender[Gender["Female"] = 1] = "Female";
