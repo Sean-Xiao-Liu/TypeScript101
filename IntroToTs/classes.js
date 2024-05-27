@@ -7,4 +7,6 @@ export class Person {
         this.gender = gender;
     }
 }
+// static variables
+Person.nation = "China";
 export let personOne = new Person("nina", 18, Gender.Female);

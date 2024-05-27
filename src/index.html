@@ -35,13 +35,15 @@
     </ul>
 
     <p>Print person name</p>
-    <div id="output"></div>
+    <div id="output">
+        <script src="index.js"></script>
+        <script>
+            // Access the variable defined in script.js
+            document.getElementById('output').textContent = personOne.name;
+        </script>
+    </div>
 
-    <script src="bundle.js"></script>
-    <script>
-        // Access the variable defined in script.js
-        document.getElementById('output').textContent = personOne.name;
-    </script>
+
 
 </body>
 </html>

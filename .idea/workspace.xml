@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13facacc-15fc-44ab-8e2b-d38da164960d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/IntroToTs/classes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IntroToTs/classes.js" beforeDir="false" afterPath="$PROJECT_DIR$/IntroToTs/classes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IntroToTs/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/IntroToTs/types.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IntroToTs/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/IntroToTs/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +86,7 @@
     <property name="nodejs_interpreter_path" value="/usr/local/Cellar/node/17.8.0/bin/node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
-    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -135,6 +133,7 @@
         <option value="$PROJECT_DIR$/IntroToTs/Variable.js" />
         <option value="$PROJECT_DIR$/IntroToTs/types.js" />
         <option value="$PROJECT_DIR$/IntroToTs/class.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
       </list>
     </option>
   </component>

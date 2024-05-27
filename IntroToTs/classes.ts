@@ -2,9 +2,13 @@
 import {Gender} from "./types";
 
 export class Person {
+    // these are instance variables
     name:string;
     age:number;
     gender:Gender;
+
+    // static variables
+    static nation = "China";
 
     constructor(name:string,age:number,gender:Gender) {
         this.name = name;
