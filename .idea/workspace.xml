@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="13facacc-15fc-44ab-8e2b-d38da164960d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IntroToTs/classes.js" beforeDir="false" afterPath="$PROJECT_DIR$/IntroToTs/classes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IntroToTs/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/IntroToTs/types.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IntroToTs/classes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/IntroToTs/classes.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -122,6 +120,7 @@
       <option name="presentableId" value="Default" />
       <updated>1714442792173</updated>
       <workItem from="1714442793359" duration="20611000" />
+      <workItem from="1716849149480" duration="5720000" />
     </task>
     <servers />
   </component>
@@ -138,6 +137,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="4853" y="440" key="#com.intellij.ide.util.MemberChooser" timestamp="1717013892353">
+      <screen x="3760" y="0" width="2560" height="1440" />
+    </state>
+    <state x="4853" y="440" key="#com.intellij.ide.util.MemberChooser/3760.0.2560.1440/1200.25.2560.1415/0.25.1200.1895@3760.0.2560.1440" timestamp="1717013892353" />
     <state x="4709" y="233" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1716236681272">
       <screen x="3760" y="0" width="2560" height="1440" />
     </state>
@@ -210,14 +213,14 @@
       <screen x="3760" y="0" width="2560" height="1440" />
     </state>
     <state x="4549" y="356" key="SettingsEditor/3760.0.2560.1440/1200.25.2560.1415/0.25.1200.1895@3760.0.2560.1440" timestamp="1714443525302" />
-    <state x="4706" y="355" width="667" height="729" key="find.popup" timestamp="1716146055231">
+    <state x="4706" y="355" width="667" height="729" key="find.popup" timestamp="1717014068134">
       <screen x="3760" y="0" width="2560" height="1440" />
     </state>
-    <state x="4706" y="355" width="667" height="729" key="find.popup/3760.0.2560.1440/1200.25.2560.1415/0.25.1200.1895@3760.0.2560.1440" timestamp="1716146055231" />
-    <state x="4705" y="382" width="670" height="676" key="search.everywhere.popup" timestamp="1715736577092">
+    <state x="4706" y="355" width="667" height="729" key="find.popup/3760.0.2560.1440/1200.25.2560.1415/0.25.1200.1895@3760.0.2560.1440" timestamp="1717014068134" />
+    <state x="4705" y="382" width="670" height="676" key="search.everywhere.popup" timestamp="1716857645006">
       <screen x="3760" y="0" width="2560" height="1440" />
     </state>
-    <state x="4705" y="382" width="670" height="676" key="search.everywhere.popup/3760.0.2560.1440/1200.25.2560.1415/0.25.1200.1895@3760.0.2560.1440" timestamp="1715736577092" />
+    <state x="4705" y="382" width="670" height="676" key="search.everywhere.popup/3760.0.2560.1440/1200.25.2560.1415/0.25.1200.1895@3760.0.2560.1440" timestamp="1716857645006" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -225,7 +228,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/index.ts</url>
           <line>3</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
