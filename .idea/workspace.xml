@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13facacc-15fc-44ab-8e2b-d38da164960d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/IntroToTs/generic.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IntroToTs/classes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/IntroToTs/classes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +125,9 @@
       <option name="presentableId" value="Default" />
       <updated>1714442792173</updated>
       <workItem from="1714442793359" duration="20611000" />
-      <workItem from="1716849149480" duration="5720000" />
+      <workItem from="1716849149480" duration="7963000" />
+      <workItem from="1717101144528" duration="1156000" />
+      <workItem from="1717529540208" duration="1382000" />
     </task>
     <servers />
   </component>
@@ -137,10 +144,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="4853" y="440" key="#com.intellij.ide.util.MemberChooser" timestamp="1717013892353">
+    <state x="4853" y="440" key="#com.intellij.ide.util.MemberChooser" timestamp="1717014395422">
       <screen x="3760" y="0" width="2560" height="1440" />
     </state>
-    <state x="4853" y="440" key="#com.intellij.ide.util.MemberChooser/3760.0.2560.1440/1200.25.2560.1415/0.25.1200.1895@3760.0.2560.1440" timestamp="1717013892353" />
+    <state x="4853" y="440" key="#com.intellij.ide.util.MemberChooser/3760.0.2560.1440/1200.25.2560.1415/0.25.1200.1895@3760.0.2560.1440" timestamp="1717014395422" />
     <state x="4709" y="233" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1716236681272">
       <screen x="3760" y="0" width="2560" height="1440" />
     </state>
