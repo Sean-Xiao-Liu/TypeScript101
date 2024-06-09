@@ -1,23 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="13facacc-15fc-44ab-8e2b-d38da164960d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vite.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/react.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CourseGoal.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CourseGoal.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CourseGoals.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CourseGoals.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vite.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/e2e/1-getting-started/todo.cy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/actions.cy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/aliasing.cy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/assertions.cy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/connectors.cy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/cookies.cy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/cypress_api.cy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/files.cy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/location.cy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/misc.cy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/navigation.cy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/network_requests.cy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/querying.cy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/spies_stubs_clocks.cy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/storage.cy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/traversal.cy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/utilities.cy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/viewport.cy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/waiting.cy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/e2e/2-advanced-examples/window.cy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/e2e/custom tests/first-test.cy.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/screenshots/first-test.cy.ts/template spec -- passes (failed).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/_metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/_metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/code-frame/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/code-frame/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/compat-data/data/corejs2-built-ins.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/compat-data/data/corejs2-built-ins.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/compat-data/data/plugins.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/compat-data/data/plugins.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/compat-data/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/compat-data/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/generator/lib/buffer.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/generator/lib/buffer.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/generator/lib/generators/classes.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/generator/lib/generators/classes.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/generator/lib/generators/methods.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/generator/lib/generators/methods.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/generator/lib/generators/statements.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/generator/lib/generators/statements.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/generator/lib/generators/typescript.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/generator/lib/generators/typescript.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/generator/lib/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/generator/lib/index.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/generator/lib/node/whitespace.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/generator/lib/node/whitespace.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/generator/lib/printer.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/generator/lib/printer.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/generator/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/generator/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/helper-compilation-targets/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/helper-compilation-targets/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/helper-environment-visitor/lib/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/helper-environment-visitor/lib/index.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/helper-environment-visitor/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/helper-environment-visitor/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/helper-function-name/lib/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/helper-function-name/lib/index.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/helper-function-name/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/helper-function-name/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/helper-hoist-variables/lib/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/helper-hoist-variables/lib/index.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/helper-hoist-variables/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/helper-hoist-variables/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/helper-module-imports/lib/import-builder.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/helper-module-imports/lib/import-builder.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/helper-module-imports/lib/import-injector.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/helper-module-imports/lib/import-injector.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/helper-module-imports/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/helper-module-imports/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/helper-module-transforms/lib/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/helper-module-transforms/lib/index.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/helper-module-transforms/lib/rewrite-live-references.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/helper-module-transforms/lib/rewrite-live-references.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/helper-module-transforms/lib/rewrite-this.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/helper-module-transforms/lib/rewrite-this.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/helper-module-transforms/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/helper-module-transforms/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/helper-plugin-utils/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/helper-plugin-utils/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/helper-plugin-utils/tsconfig.tsbuildinfo" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/helper-plugin-utils/tsconfig.tsbuildinfo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/helper-simple-access/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/helper-simple-access/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/helper-split-export-declaration/lib/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/helper-split-export-declaration/lib/index.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/helper-split-export-declaration/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/helper-split-export-declaration/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/helper-string-parser/lib/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/helper-string-parser/lib/index.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/helper-string-parser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/helper-string-parser/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/helper-validator-identifier/lib/identifier.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/helper-validator-identifier/lib/identifier.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/helper-validator-identifier/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/helper-validator-identifier/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/helper-validator-option/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/helper-validator-option/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/highlight/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/highlight/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/parser/lib/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/parser/lib/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/parser/lib/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/parser/lib/index.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/parser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/parser/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/parser/typings/babel-parser.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/parser/typings/babel-parser.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/template/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/template/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/traverse/lib/scope/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/traverse/lib/scope/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/traverse/lib/scope/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/traverse/lib/scope/index.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/traverse/lib/scope/lib/renamer.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/traverse/lib/scope/lib/renamer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/traverse/lib/scope/lib/renamer.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/traverse/lib/scope/lib/renamer.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/traverse/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/traverse/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/retrievers/getBindingIdentifiers.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/types/lib/retrievers/getBindingIdentifiers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/retrievers/getBindingIdentifiers.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/types/lib/retrievers/getBindingIdentifiers.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/types/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,9 +95,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="TypeScript File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -70,45 +138,58 @@
     <bower-package value="" />
     <bower.json value="" />
   </component>
-  <component name="JsFlowSettings">
-    <service-enabled>true</service-enabled>
-    <exe-path />
-    <other-services-enabled>true</other-services-enabled>
-    <auto-save>true</auto-save>
-  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2fnhY2WuFxuFDxbrfYDmz4fH4md" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.standard" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.standard" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.standard" value="" />
-    <property name="nodejs_interpreter_path" value="/usr/local/Cellar/node/17.8.0/bin/node" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
-    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Cypress.all tests in first-test.cy.ts.executor&quot;: &quot;Run&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/xiaoliu/WebstormProjects/TypeScriptTutorial&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/xiaoliu/WebstormProjects/TypeScriptTutorial/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cypress/support" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/cypress/e2e/custom tests" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (2)">
+  <component name="RunManager" selected="Cypress.all tests in first-test.cy.ts">
+    <configuration name="all tests in first-test.cy.ts" type="JavaScriptTestRunnerCypress" temporary="true">
+      <node-interpreter value="project" />
+      <cypress-package value="$PROJECT_DIR$/node_modules/cypress" />
+      <working-dir value="$PROJECT_DIR$" />
+      <cypress-options value="-q" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/cypress/e2e/first-test.cy.ts" />
+      <test-names>
+        <test-name value="template spec" />
+        <test-name value="passes" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/TypeScriptTutorial/IntroToTs/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -120,12 +201,21 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cypress.all tests in first-test.cy.ts" />
         <item itemvalue="JavaScript Debug.index.html (2)" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.17011.90" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -140,107 +230,28 @@
       <workItem from="1716849149480" duration="7963000" />
       <workItem from="1717101144528" duration="1156000" />
       <workItem from="1717529540208" duration="1697000" />
-      <workItem from="1717533247527" duration="1245000" />
+      <workItem from="1717533247527" duration="2064000" />
+      <workItem from="1717617226675" duration="16000" />
+      <workItem from="1717617318150" duration="953000" />
+      <workItem from="1717618694415" duration="5802000" />
+      <workItem from="1717652942405" duration="7724000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
     <option name="exactExcludedFiles">
       <list>
-        <option value="$PROJECT_DIR$/IntroToTs/intro.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/IntroToTs/classes.js" />
         <option value="$PROJECT_DIR$/IntroToTs/Variable.js" />
         <option value="$PROJECT_DIR$/IntroToTs/types.js" />
-        <option value="$PROJECT_DIR$/IntroToTs/class.js" />
-        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/IntroToTs/intro.js" />
       </list>
     </option>
   </component>
-  <component name="WindowStateProjectService">
-    <state x="4853" y="440" key="#com.intellij.ide.util.MemberChooser" timestamp="1717014395422">
-      <screen x="3760" y="0" width="2560" height="1440" />
-    </state>
-    <state x="4853" y="440" key="#com.intellij.ide.util.MemberChooser/3760.0.2560.1440/1200.25.2560.1415/0.25.1200.1895@3760.0.2560.1440" timestamp="1717014395422" />
-    <state x="4709" y="233" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1716236681272">
-      <screen x="3760" y="0" width="2560" height="1440" />
-    </state>
-    <state x="4709" y="233" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/3760.0.2560.1440/1200.25.2560.1415/0.25.1200.1895@3760.0.2560.1440" timestamp="1716236681272" />
-    <state width="2539" height="519" key="GridCell.Tab.0.bottom" timestamp="1714443614180">
-      <screen x="3760" y="0" width="2560" height="1440" />
-    </state>
-    <state width="2539" height="519" key="GridCell.Tab.0.bottom/3760.0.2560.1440/1200.25.2560.1415/0.25.1200.1895@3760.0.2560.1440" timestamp="1714443614180" />
-    <state width="2539" height="519" key="GridCell.Tab.0.center" timestamp="1714443614179">
-      <screen x="3760" y="0" width="2560" height="1440" />
-    </state>
-    <state width="2539" height="519" key="GridCell.Tab.0.center/3760.0.2560.1440/1200.25.2560.1415/0.25.1200.1895@3760.0.2560.1440" timestamp="1714443614179" />
-    <state width="2539" height="519" key="GridCell.Tab.0.left" timestamp="1714443614178">
-      <screen x="3760" y="0" width="2560" height="1440" />
-    </state>
-    <state width="2539" height="519" key="GridCell.Tab.0.left/3760.0.2560.1440/1200.25.2560.1415/0.25.1200.1895@3760.0.2560.1440" timestamp="1714443614178" />
-    <state width="2539" height="519" key="GridCell.Tab.0.right" timestamp="1714443614179">
-      <screen x="3760" y="0" width="2560" height="1440" />
-    </state>
-    <state width="2539" height="519" key="GridCell.Tab.0.right/3760.0.2560.1440/1200.25.2560.1415/0.25.1200.1895@3760.0.2560.1440" timestamp="1714443614179" />
-    <state width="2539" height="519" key="GridCell.Tab.1.bottom" timestamp="1714443614182">
-      <screen x="3760" y="0" width="2560" height="1440" />
-    </state>
-    <state width="2539" height="519" key="GridCell.Tab.1.bottom/3760.0.2560.1440/1200.25.2560.1415/0.25.1200.1895@3760.0.2560.1440" timestamp="1714443614182" />
-    <state width="2539" height="519" key="GridCell.Tab.1.center" timestamp="1714443614181">
-      <screen x="3760" y="0" width="2560" height="1440" />
-    </state>
-    <state width="2539" height="519" key="GridCell.Tab.1.center/3760.0.2560.1440/1200.25.2560.1415/0.25.1200.1895@3760.0.2560.1440" timestamp="1714443614181" />
-    <state width="2539" height="519" key="GridCell.Tab.1.left" timestamp="1714443614180">
-      <screen x="3760" y="0" width="2560" height="1440" />
-    </state>
-    <state width="2539" height="519" key="GridCell.Tab.1.left/3760.0.2560.1440/1200.25.2560.1415/0.25.1200.1895@3760.0.2560.1440" timestamp="1714443614180" />
-    <state width="2539" height="519" key="GridCell.Tab.1.right" timestamp="1714443614181">
-      <screen x="3760" y="0" width="2560" height="1440" />
-    </state>
-    <state width="2539" height="519" key="GridCell.Tab.1.right/3760.0.2560.1440/1200.25.2560.1415/0.25.1200.1895@3760.0.2560.1440" timestamp="1714443614181" />
-    <state width="2539" height="519" key="GridCell.Tab.2.bottom" timestamp="1714443614184">
-      <screen x="3760" y="0" width="2560" height="1440" />
-    </state>
-    <state width="2539" height="519" key="GridCell.Tab.2.bottom/3760.0.2560.1440/1200.25.2560.1415/0.25.1200.1895@3760.0.2560.1440" timestamp="1714443614184" />
-    <state width="2539" height="519" key="GridCell.Tab.2.center" timestamp="1714443614183">
-      <screen x="3760" y="0" width="2560" height="1440" />
-    </state>
-    <state width="2539" height="519" key="GridCell.Tab.2.center/3760.0.2560.1440/1200.25.2560.1415/0.25.1200.1895@3760.0.2560.1440" timestamp="1714443614183" />
-    <state width="2539" height="519" key="GridCell.Tab.2.left" timestamp="1714443614183">
-      <screen x="3760" y="0" width="2560" height="1440" />
-    </state>
-    <state width="2539" height="519" key="GridCell.Tab.2.left/3760.0.2560.1440/1200.25.2560.1415/0.25.1200.1895@3760.0.2560.1440" timestamp="1714443614183" />
-    <state width="2539" height="519" key="GridCell.Tab.2.right" timestamp="1714443614184">
-      <screen x="3760" y="0" width="2560" height="1440" />
-    </state>
-    <state width="2539" height="519" key="GridCell.Tab.2.right/3760.0.2560.1440/1200.25.2560.1415/0.25.1200.1895@3760.0.2560.1440" timestamp="1714443614184" />
-    <state width="2539" height="519" key="GridCell.Tab.3.bottom" timestamp="1714443614186">
-      <screen x="3760" y="0" width="2560" height="1440" />
-    </state>
-    <state width="2539" height="519" key="GridCell.Tab.3.bottom/3760.0.2560.1440/1200.25.2560.1415/0.25.1200.1895@3760.0.2560.1440" timestamp="1714443614186" />
-    <state width="2539" height="519" key="GridCell.Tab.3.center" timestamp="1714443614185">
-      <screen x="3760" y="0" width="2560" height="1440" />
-    </state>
-    <state width="2539" height="519" key="GridCell.Tab.3.center/3760.0.2560.1440/1200.25.2560.1415/0.25.1200.1895@3760.0.2560.1440" timestamp="1714443614185" />
-    <state width="2539" height="519" key="GridCell.Tab.3.left" timestamp="1714443614185">
-      <screen x="3760" y="0" width="2560" height="1440" />
-    </state>
-    <state width="2539" height="519" key="GridCell.Tab.3.left/3760.0.2560.1440/1200.25.2560.1415/0.25.1200.1895@3760.0.2560.1440" timestamp="1714443614185" />
-    <state width="2539" height="519" key="GridCell.Tab.3.right" timestamp="1714443614186">
-      <screen x="3760" y="0" width="2560" height="1440" />
-    </state>
-    <state width="2539" height="519" key="GridCell.Tab.3.right/3760.0.2560.1440/1200.25.2560.1415/0.25.1200.1895@3760.0.2560.1440" timestamp="1714443614186" />
-    <state x="4549" y="356" key="SettingsEditor" timestamp="1714443525302">
-      <screen x="3760" y="0" width="2560" height="1440" />
-    </state>
-    <state x="4549" y="356" key="SettingsEditor/3760.0.2560.1440/1200.25.2560.1415/0.25.1200.1895@3760.0.2560.1440" timestamp="1714443525302" />
-    <state x="4706" y="355" width="667" height="729" key="find.popup" timestamp="1717014068134">
-      <screen x="3760" y="0" width="2560" height="1440" />
-    </state>
-    <state x="4706" y="355" width="667" height="729" key="find.popup/3760.0.2560.1440/1200.25.2560.1415/0.25.1200.1895@3760.0.2560.1440" timestamp="1717014068134" />
-    <state x="4705" y="382" width="670" height="676" key="search.everywhere.popup" timestamp="1716857645006">
-      <screen x="3760" y="0" width="2560" height="1440" />
-    </state>
-    <state x="4705" y="382" width="670" height="676" key="search.everywhere.popup/3760.0.2560.1440/1200.25.2560.1415/0.25.1200.1895@3760.0.2560.1440" timestamp="1716857645006" />
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

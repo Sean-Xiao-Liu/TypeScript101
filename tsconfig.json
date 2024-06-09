@@ -109,6 +109,6 @@
 
   },
   // include and exclude files, include and exclude are supposed to be siblings of compilerOptions, not children
-  "include": ["IntroToTs/*.ts"],
-  "exclude": []
+  "include": ["**/*.ts","src","tests","cypress"],
+  "exclude": ["node_modules"]
 }
