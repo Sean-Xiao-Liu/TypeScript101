@@ -30,9 +30,10 @@ module.exports = {
     ],
 
     resolve: {
-        extensions: ['.ts','.js'],
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
         alias: {
             '@support': path.resolve(__dirname, 'cypress/support')
+
         }
     }
 

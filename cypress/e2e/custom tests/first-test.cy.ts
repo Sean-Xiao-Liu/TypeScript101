@@ -1,6 +1,9 @@
+// import {Pages} from "../../support/pages"
+import { Pages } from "@support/pages";
+
 describe('complicated-page with many web elements', () => {
   beforeEach(() => {
-    cy.visit('https://ultimateqa.com/complicated-page');
+    cy.visit(Pages.getComplicatedPageUrl());
   })
   it('should land on complicated-page', () => {
     // cy.visit('https://ultimateqa.com/complicated-page');
