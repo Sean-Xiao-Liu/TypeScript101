@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13facacc-15fc-44ab-8e2b-d38da164960d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cypress/downloads/downloads.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/support/pages.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cypress/e2e/custom tests/first-test.cy.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/custom tests/first-test.cy.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +156,7 @@
       <workItem from="1717617318150" duration="953000" />
       <workItem from="1717618694415" duration="5802000" />
       <workItem from="1717652942405" duration="8646000" />
-      <workItem from="1718058959079" duration="977000" />
+      <workItem from="1718058959079" duration="4431000" />
     </task>
     <servers />
   </component>

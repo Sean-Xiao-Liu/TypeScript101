@@ -76,6 +76,47 @@ describe('complicated-page with many web elements', () => {
           .click();
 
       cy.url().should('eq', 'https://ultimateqa.com/backoffice');
+      cy.go('back'); // back to previous page
+      cy.url().should('eq', Pages.getComplicatedPageUrl());
+    })
+
+    it('should redirect after login function with alias', () => {
+      cy.get('form[action=\'https://ultimateqa.com/backoffice\'] > p > input')
+          .eq(0)
+          .as('username')
+      cy.get('form[action=\'https://ultimateqa.com/backoffice\'] > p > input')
+          .eq(1)
+          .as('password')
+      cy.get('button[name=\'et_builder_submit_button\']')
+          .eq(1)
+          .as('submitButton');
+      cy.get('@username').scrollIntoView().type('test');
+      cy.get('@password').scrollIntoView().type('test');
+      cy.get('@submitButton').scrollIntoView().click();
+
+      cy.url().should('eq', 'https://ultimateqa.com/backoffice');
+    })
+  })
+
+  context('location',() =>{
+    it('should be able to find path name', () => {
+      cy.location('pathname') // pathname
+          .should('eq', '/complicated-page');
+    })
+
+    it('should be able to find host name', () => {
+      cy.location('hostname') // pathname
+          .should('eq', 'ultimateqa.com')
+    })
+
+    it('should be able to find host', () => {
+      cy.location('host') // host
+          .should('eq', 'ultimateqa.com')
+    })
+
+    it('should be able to find port', () => {
+      cy.location('port') // doesn't have a port number for this url
+          .should('eq', '')
     })
   })
 })
