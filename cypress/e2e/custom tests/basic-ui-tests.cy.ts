@@ -80,20 +80,18 @@ describe('complicated-page with many web elements', () => {
       cy.url().should('eq', Pages.getComplicatedPageUrl());
     })
 
-    it('should redirect after login function with alias', () => {
+    it('should redirect after login function with alias and special character input', () => {
       cy.get('form[action=\'https://ultimateqa.com/backoffice\'] > p > input')
           .eq(0)
           .as('username')
       cy.get('form[action=\'https://ultimateqa.com/backoffice\'] > p > input')
           .eq(1)
           .as('password')
-      cy.get('button[name=\'et_builder_submit_button\']')
-          .eq(1)
-          .as('submitButton');
-      cy.get('@username').scrollIntoView().type('test');
-      cy.get('@password').scrollIntoView().type('test');
-      cy.get('@submitButton').scrollIntoView().click();
 
+        cy.screenshot(); // screenshot before enter user credential
+      cy.get('@username').scrollIntoView().type('test');
+      cy.get('@password').scrollIntoView().type('test{enter}'); // press Enter after input password
+        cy.screenshot(); // screenshot after redirect
       cy.url().should('eq', 'https://ultimateqa.com/backoffice');
     })
   })
