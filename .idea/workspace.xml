@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13facacc-15fc-44ab-8e2b-d38da164960d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cypress/screenshots/2-advanced-examples/actions.cy.js/Actions -- cy.scrollTo() - scroll the window or element to a position (failed).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/screenshots/2-advanced-examples/assertions.cy.js/Assertions -- Explicit Assertions -- retries the should callback until assertions pass (failed).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/screenshots/custom tests/basic-ui-tests.cy.ts/after redirect.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cypress/screenshots/custom tests/basic-ui-tests.cy.ts/before user credential.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/support/index.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cypress.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/custom tests/basic-ui-tests.cy.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/custom tests/basic-ui-tests.cy.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/screenshots/complicated-page with many web elements -- login function -- should redirect after login function with alias and special character input (1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/screenshots/complicated-page with many web elements -- login function -- should redirect after login function with alias and special character input.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/screenshots/first-test.cy.ts/template spec -- passes (failed).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/support/commands.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/support/commands.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +158,7 @@
       <workItem from="1717617318150" duration="953000" />
       <workItem from="1717618694415" duration="5802000" />
       <workItem from="1717652942405" duration="8646000" />
-      <workItem from="1718058959079" duration="7403000" />
+      <workItem from="1718058959079" duration="8100000" />
     </task>
     <servers />
   </component>

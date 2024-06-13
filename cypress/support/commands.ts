@@ -35,3 +35,7 @@
 //     }
 //   }
 // }
+
+Cypress.Commands.add('refresh',()=>{
+    cy.reload();
+});
