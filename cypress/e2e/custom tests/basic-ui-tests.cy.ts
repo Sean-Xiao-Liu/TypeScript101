@@ -1,6 +1,4 @@
-// import {Pages} from "../../support/pages"
 import { Pages } from "@support/pages";
-import {afterEach} from "mocha";
 
 describe('complicated-page with many web elements', () => {
   before(() => { // this run once before all test cases
