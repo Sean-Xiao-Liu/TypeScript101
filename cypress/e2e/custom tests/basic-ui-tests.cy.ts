@@ -1,11 +1,21 @@
 // import {Pages} from "../../support/pages"
 import { Pages } from "@support/pages";
+import {afterEach} from "mocha";
 
 describe('complicated-page with many web elements', () => {
-  beforeEach(() => {
+  before(() => { // this run once before all test cases
+    cy.clearAllCookies();
+    cy.clearAllLocalStorage();
+  })
+  beforeEach(() => { // this run before every test case
     cy.visit(Pages.getComplicatedPageUrl());
   })
-  it('should land on complicated-page', () => {
+  afterEach(()=>{})
+  after(()=>{ // run once after all whole test suite
+    cy.clearAllLocalStorage();
+    cy.clearAllCookies();
+  })
+  it('should land on complicated-page', {browser: 'firefox'},() => { // set browser to run tests
     // cy.visit('https://ultimateqa.com/complicated-page');
     cy.get('#Skills_Improved');
   })
@@ -88,10 +98,10 @@ describe('complicated-page with many web elements', () => {
           .eq(1)
           .as('password')
 
-        cy.screenshot(); // screenshot before enter user credential
+        cy.screenshot('before user credential'); // screenshot before enter user credential
       cy.get('@username').scrollIntoView().type('test');
       cy.get('@password').scrollIntoView().type('test{enter}'); // press Enter after input password
-        cy.screenshot(); // screenshot after redirect
+        cy.screenshot('after redirect'); // screenshot after redirect
       cy.url().should('eq', 'https://ultimateqa.com/backoffice');
     })
   })
