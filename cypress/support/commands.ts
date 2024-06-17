@@ -39,3 +39,7 @@
 Cypress.Commands.add('refresh',()=>{
     cy.reload();
 });
+
+Cypress.Commands.add('getById',(id) => {
+    return cy.get(`#${id}`);
+})

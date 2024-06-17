@@ -96,10 +96,11 @@ describe('complicated-page with many web elements', () => {
           .eq(1)
           .as('password')
 
-        cy.screenshot('before user credential',{overwrite: true}); // screenshot before enter user credential, set overwrite option as true
+      // https://docs.cypress.io/api/commands/screenshot
+      //   cy.screenshot('custom tests/before user credential',{overwrite: true}); // screenshot before enter user credential, set overwrite option as true
       cy.get('@username').scrollIntoView().type('test');
       cy.get('@password').scrollIntoView().type('test{enter}'); // press Enter after input password
-        cy.screenshot('after redirect',{overwrite: true}); // screenshot after redirect, set overwrite option as true
+        // cy.screenshot('custom tests/after redirect',{overwrite: true}); // screenshot after redirect, set overwrite option as true
       cy.url().should('eq', 'https://ultimateqa.com/backoffice');
     })
   })
@@ -125,4 +126,11 @@ describe('complicated-page with many web elements', () => {
           .should('eq', '')
     })
   })
+
+  // test now under context runs first
+  it('should able to use custom query ', () => {
+    //  tag: smoke
+    cy.getById('comments')
+        .should('be.visible')
+  });
 })
