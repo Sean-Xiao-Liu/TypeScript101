@@ -96,10 +96,10 @@ describe('complicated-page with many web elements', () => {
           .eq(1)
           .as('password')
 
-        cy.screenshot('before user credential'); // screenshot before enter user credential
+        cy.screenshot('before user credential',{overwrite: true}); // screenshot before enter user credential, set overwrite option as true
       cy.get('@username').scrollIntoView().type('test');
       cy.get('@password').scrollIntoView().type('test{enter}'); // press Enter after input password
-        cy.screenshot('after redirect'); // screenshot after redirect
+        cy.screenshot('after redirect',{overwrite: true}); // screenshot after redirect, set overwrite option as true
       cy.url().should('eq', 'https://ultimateqa.com/backoffice');
     })
   })
