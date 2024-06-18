@@ -1,3 +1,0 @@
-describe('Stubs and Spies', () => {
-
-})
