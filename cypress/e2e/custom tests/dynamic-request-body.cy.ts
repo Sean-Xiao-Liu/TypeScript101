@@ -33,7 +33,8 @@ describe('Multiple ways to create request body', () => {
                 cy.request('POST',Pages.getRegreUrl()+'api/users',requestBody)
                     .then((response) =>{
                         expect(response.status).to.eq(201);
-                        expect(response.body.job).to.eql('leader');
+                        expect(response.body.job).to.eql(data.job); // Assertion with
+                        expect(response.body.name).to.eql(data.name);
                         expect(response.body.createdAt).to.contain(formattedDate);
                     })
             })
