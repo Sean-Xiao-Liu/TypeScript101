@@ -1,16 +1,16 @@
 export class ClientNameAndEmailGenerator {
-    private name: string;
-    private email: string;
+    private clientName: string;
+    private clientEmail: string;
 
     constructor() {
-        this.email = '';
-        this.name = '';
+        this.clientEmail = '';
+        this.clientName = '';
     }
 
-    public generateRandomClient(): { name: string, email: string } {
-        this.name = generateRandomName(20);
-        this.email = generateRandomEmail(20);
-        return {name: this.name, email: this.email};
+    public generateRandomClient(): { clientName: string, clientEmail: string } {
+        this.clientName = generateRandomName(20);
+        this.clientEmail = generateRandomEmail(20);
+        return {clientName: this.clientName, clientEmail: this.clientEmail};
     }
 }
 
