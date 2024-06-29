@@ -27,7 +27,7 @@ describe('Multiple ways to create request body', () => {
 
         it('should work with fixture request body', () => {
             // get request body using fixture
-            cy.fixture('name_and_job').then((data) =>{
+            cy.fixture('name_and_job').then((data) =>{ // read fixture json file into data
                 const requestBody = data;
                 // put request within fixture function
                 cy.request('POST',Pages.getRegreUrl()+'api/users',requestBody)
