@@ -1,18 +1,27 @@
-export class Pages{
+export class Pages {
     private static complicatedPageUrl: string = 'https://ultimateqa.com/complicated-page';
     private static jsonPlaceHolderUrl: string = 'https://jsonplaceholder.typicode.com/';
     private static reqresUrl: string = 'https://reqres.in/';
     private static simpleBookUrl: string = 'https://simple-books-api.glitch.me/';
-    public static getComplicatedPageUrl():string{
+    private static fakeStoreUrl: string = 'http://fakestoreapi.com/'
+
+    public static getComplicatedPageUrl(): string {
         return this.complicatedPageUrl;
     }
-    public static getJsonPlaceHolderUrl():string{
+
+    public static getJsonPlaceHolderUrl(): string {
         return this.jsonPlaceHolderUrl;
     }
-    public static getRegreUrl(){
+
+    public static getRegreUrl(): string {
         return this.reqresUrl;
     }
-    public static getSimpleBookUrl(){
+
+    public static getSimpleBookUrl(): string {
         return this.simpleBookUrl;
+    }
+
+    public static getFakeStoreUrl(): string {
+        return this.fakeStoreUrl;
     }
 }

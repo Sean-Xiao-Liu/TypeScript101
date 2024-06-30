@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13facacc-15fc-44ab-8e2b-d38da164960d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cypress/e2e/custom tests/response_json_schema.cy.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cypress/fixtures/fake_store_json_schema.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/custom tests/dynamic_request_body.cy.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/custom tests/dynamic_request_body.cy.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/custom tests/response_json_schema.cy.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/custom tests/response_json_schema.cy.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/support/pages.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/support/pages.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
